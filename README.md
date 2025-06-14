@@ -101,6 +101,18 @@ public/
 
 ---
 
+## Trending Component
+
+The project includes a **Trending** component that displays the most searched or popular movies and TV shows. This component fetches trending data from the TMDb API and highlights titles that are currently popular among users.
+
+- 📈 **Trending Now:** See what’s hot and most searched in real time.
+- 🔄 **Auto-updating:** The trending list refreshes regularly to show the latest popular content.
+- 🏆 **Easy Discovery:** Quickly find movies and shows that are trending worldwide.
+
+You can find the Trending component on the home page, making it easy for users to discover and explore the most popular titles right now.
+
+---
+
 ## License
 
 MIT
