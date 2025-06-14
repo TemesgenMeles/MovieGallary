@@ -3,7 +3,7 @@
 A modern React app to browse movies and TV shows using [The Movie Database (TMDb)](https://www.themoviedb.org/) API.  
 Beautiful UI, responsive design, and detailed info for each title!
 
-![Movie Gallery Screenshot](./public/demo-screenshot.png)
+![Movie Gallery Screenshot](./public/demo-screenshot.jpeg)
 
 ---
 
@@ -23,7 +23,7 @@ Beautiful UI, responsive design, and detailed info for each title!
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/movie-gallery.git
+git clone https://github.com/TemesgenMeles/MovieGallary.git
 cd movie-gallery
 ```
 
@@ -33,14 +33,20 @@ cd movie-gallery
 npm install
 ```
 
-### 3. Get a TMDb API Key
+### 3. Get a TMDb API Key and set up Appwrite
 
 - Sign up at [TMDb](https://www.themoviedb.org/) and get your API key.
-- Create a `.env` file in the root and add:
+- Make sure you have an [Appwrite](https://appwrite.io/) project and get your Project, Database, and Collection IDs.
+- Create a `.env.local` file in the root and add:
 
 ```
 VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+VITE_APPWRITE_PROJECT_ID=YOUR_APPWRITE_PROJECT_ID
+VITE_APPWRITE_DATABASE_ID=YOUR_APPWRITE_DATABASE_ID
+VITE_APPWRITE_COLLECTION_ID=YOUR_APPWRITE_COLLECTION_ID
 ```
+
+> Replace the values above with your actual Appwrite and TMDb keys/IDs.
 
 ### 4. Start the development server
 
@@ -75,15 +81,15 @@ public/
 
 ### Home Page
 
-![Home Page](./public/demo-home.png)
+![Home Page](./public/demo-home.jpeg)
 
 ### Movie Detail
 
-![Movie Detail](./public/demo-movie-detail.png)
+![Movie Detail](./public/demo-movie-detail.jpeg)
 
 ### TV Show Detail
 
-![TV Show Detail](./public/demo-tv-detail.png)
+![TV Show Detail](./public/demo-tv-detail.jpeg)
 
 ---
 
